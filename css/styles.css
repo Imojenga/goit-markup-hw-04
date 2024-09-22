@@ -210,16 +210,16 @@ body {
   margin-bottom: 72px;
 }
 
-.solutions-list {
+.features-list {
   display: flex;
   gap: 24px;
 }
 
-.solutions-list-item {
+.features-list-item {
   width: calc((100% - 72px) / 4);
 }
 
-.solutions-div {
+.features-list-div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,7 +232,7 @@ body {
   margin-bottom: 8px;
 }
 
-.solutions-icon {
+.features-icon {
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -241,7 +241,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.solutions-title,
+.features-title,
 .team-title,
 .portfolio-title {
   font-size: 20px;
@@ -252,7 +252,7 @@ body {
   margin-bottom: 8px;
 }
 
-.solutions-text,
+.features-text,
 .team-text,
 .portfolio-text {
   color: #434455;
@@ -276,8 +276,18 @@ body {
   border-radius: 0 0 4px 4px;
 }
 
-.team-list-container {
+.team-list-div {
   padding: 32px 0;
+}
+
+.team-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-text {
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-icon-list {
@@ -306,16 +316,6 @@ body {
   fill: #f4f4fd;
 }
 
-.team-title {
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.team-text {
-  text-align: center;
-  margin-bottom: 8px;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -339,7 +339,7 @@ body {
   overflow: hidden;
 }
 
-.overlay {
+.portfolio-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -353,11 +353,11 @@ body {
   overflow: auto;
 }
 
-.portfolio-list-item:hover .overlay {
+.portfolio-list-item:hover .portfolio-overlay {
   transform: translateY(0);
 }
 
-.portfolio-list-container {
+.portfolio-list-div {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -374,7 +374,7 @@ body {
   align-items: baseline;
 }
 
-.footer-logo-container {
+.footer-logo-div {
   margin-right: 120px;
 }
 
@@ -399,7 +399,7 @@ body {
   max-width: 264px;
 }
 
-.social-media-container {
+.social-media-div {
   display: flex;
   flex-direction: column;
 }
